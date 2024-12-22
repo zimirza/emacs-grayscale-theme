@@ -151,7 +151,7 @@
 
 ;;;; line-numbers
    (line-number                                  :foreground fg-1 :background bg+1)
-   (line-number-current-line                     :inverse-video t :inherit line-number)
+   (line-number-current-line                     :foreground fg-1 :inherit line-number)
 
 ;;;; mode-line
    (mode-line                                    :foreground fg-1 :background bg+2 :box (:line-width -1 :style released-button))
